@@ -1,0 +1,19 @@
+GeneratorModel for yakindu::cpp {
+
+	statechart Statechart {
+
+		feature Outlet {
+			targetProject = "sm_0_statechart"
+			targetFolder = "src-gen"
+		}
+		
+/*		feature Tracing {
+			enterState = true
+			exitState = true
+		}
+ */		
+		feature GeneralFeatures {
+			timerService = true
+		}
+	}
+}
